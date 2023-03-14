@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+ <form action="#" method="post">
+
+        
+            <label>FIRST NAME*</label>
+            <input type="text" name="first-name" id="fname">
+            <span id="msg1"></span>
+          
+          <input type="button" value="send messages" onclick="sub()">
+     
+  </form>
+
+          
+<script type="text/javascript">
+	
+		function sub(){
+			var name=document.getElementById('fname').value;
+			if(name==""){
+				document.getElementById('fname').style.borderColor="red";
+				document.getElementById('msg1').innerHTML=null;
+			}
+		}
+
+	
+</script>
+</body>
+</html>

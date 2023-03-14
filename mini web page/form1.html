@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Onsubmit Event Example</title>
+
+</head>
+<body>
+<div class="container">
+<div class="main">
+<form action="#" method="post" >
+<h2>Javascript Onsubmit Event Example</h2>
+<label>Name :</label>
+<input id="name" name="name" placeholder="Name" type="text">
+<br>
+<label>Email :</label>
+<input id="email" name="email" placeholder="Valid Email" type="text">
+<br>
+<label>Gender :</label>
+<input id="male" name="gender" type="radio" value="Male">
+
+<label>Male</label>
+<input id="female" name="gender" type="radio" value="Female">
+<br>
+<label>Female</label>
+<br>
+<label>Contact No. :</label>
+<input id="contact" name="contact" placeholder="Contact No." type="text">
+<input type="submit" value="Submit" onclick=" ValidationEvent()">
+<span>All type of validation will execute on OnSubmit Event.</span>
+</form>
+</div>
+</div>
+
+<script type="text/javascript">
+	
+	function ValidationEvent() {
+// Storing Field Values In Variables
+var name1 = document.getElementById("name").value;
+var nameex="/^[A-Za-z]+$/;"
+if(!name1.test.nameex){
+	document.getElementById('name').Style.borderColor="red";
+
+	
+}
+
+</script>
+
+</body>
+</html>
+

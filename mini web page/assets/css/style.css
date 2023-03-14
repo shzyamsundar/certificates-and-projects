@@ -1,0 +1,445 @@
+.navbar-brand{
+    font-size: 29px!important;
+    padding-top: 20px!important;
+}
+
+.navbar-nav  li{
+    padding-right: 14px;
+    padding-top: 25px;
+    padding-left: 12px;
+}
+.home-left h1{
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    margin-top: 12%;
+
+}
+.home-left p{
+    font-weight: 100;
+    margin-top: 20px;
+}
+.home-left button{
+    height: 3rem;
+    width: 27%;
+    border-radius: 20px;
+    margin-top: 3%;
+    background-color:rgb(37, 37, 203);
+    color: ghostwhite;
+    border: 0ch;
+
+}
+@media screen and (max-width: 400px){
+    .home-left button{
+        width: 40%;
+    }
+}
+.home-right img{
+    width: 100%;
+}
+.features{
+    padding-top: 9%;
+    font-size: 20px;
+    padding-bottom: 5%
+}
+.features .container{
+    margin-top: 5%
+
+}
+.features p{
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-top: 2%;
+}
+@media screen and (max-width: 375px){
+    .features p{
+        padding-left: 10%;
+    padding-right: 9%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+
+    }
+}
+.features .card-body p{
+    font-size: 15px;
+    font-size: 15px;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.features .icon1{
+        background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 70%;
+    padding: 24px;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 8rem;
+    
+}
+.card-title {
+    margin-top: 17%
+}
+.features .card{
+    padding-bottom: 5%;
+    margin-bottom:22%;
+    transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+}
+.features .card:hover{
+background-color: blue;
+color: #fff;
+transform: translateY(-10px);
+
+}
+.features .card:hover a{
+color: #fff;
+}
+
+
+.features .icon2{
+        background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 70%;
+    padding: 24px;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 8rem;
+    
+}
+.features .card:hover .icon2{
+    background-color: #fff;
+    color: blue;
+}
+.features .icon3{
+        background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 70%;
+    padding: 24px;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 8rem;
+    
+}
+.features .icon4{
+        background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 70%;
+    padding: 24px;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 8rem;
+    
+}
+.features .icon5{
+        background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 70%;
+    padding: 24px;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 8rem;
+    
+}
+.features .icon6{
+        background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 70%;
+    padding: 24px;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 8rem;
+    
+}
+.learn-more{
+    text-decoration: none;
+    font-weight: 350;
+    font-size: 18px;
+
+
+}
+.features1{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.features1 h1{
+    padding-left: 4%;
+    padding-top: 6%;
+}
+.features1 p{
+    padding-left: 4%;
+    padding-top: 6%;
+    font-weight: 100
+}
+.features .card-text{
+    padding-left: 2%
+
+}
+
+.card{
+    border-left: 10px solid #4285f4;
+}
+.me-auto{
+    margin-left: 7%
+}
+.me-3 img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+.me-auto h5{
+
+    
+    margin: auto;
+    margin-bottom: -10%!important;
+}
+.me-auto h6{
+    font-weight: 400;
+    color: black!important;
+
+}
+.about-us{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+.ab-image img{
+    width: 100%;
+
+
+}
+.ab-right h3{
+    padding-left: 25%;
+    margin-top: 12%;
+}
+.ab-right li{
+    padding-left: 25%;
+    padding-top: 3%;
+    color: gray;
+
+}
+.ab-right p{
+    padding-left: 25%;
+    font-weight: 400;
+    padding-top: 4%;
+    text-shadow:20px;
+    color: gray;
+
+}
+.ab-right i{
+    margin-right: 5%;
+    
+    color: green;
+    font-weight: 300;
+}
+
+.ab-right button{
+    height: 3rem;
+    width: 27%;
+    border-radius: 30px;
+    margin-top: 3%;
+    background-color:rgb(37, 37, 203);
+    color: ghostwhite;
+    border: 0ch;
+    margin-left: 25%;
+}
+@media screen and (max-width: 768px)
+    {
+        .ab-right button{
+            width: 45%
+        }
+    }
+
+.our-team{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.our-team h6{
+    font-size: 20px;
+    padding-right: 22%;
+    padding-left: 22%;
+    color: gray;
+    margin-bottom: 10%;
+
+}
+@media screen and (max-width: 768px){
+.our-team h6{
+    padding-right: 8%;
+    padding-left: 15%;}
+}
+.firstthreeimg h5{
+    color: #4285f4;
+
+    
+}
+.firstthreeimg p{
+    color: gray;
+    padding-top: 2%
+}
+.carousel-inner img{
+    border-radius: 50%;
+}
+.carousel-indicators{
+    position: absolute;
+    top: 145px !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: #4285f4 !important;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black !important;
+    background-clip: padding-box;
+   border-top: 0px solid transparent !important; 
+  border-bottom: 0px solid transparent !important; 
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+}
+.testimonials{
+    margin-top: 10%;
+    margin-bottom: 10%
+
+}
+.social {
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    /* top: 0; */
+    width: 100%;
+    transform: translateY(100%);
+    z-index: -1;
+        padding: 15px;
+     transition: 0.2s ease-in-out;
+    transition-duration: 1s;}
+.firstthreeimg1{
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.firstthreeimg1:hover .social {
+    bottom: 34%;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    z-index: 2;
+}
+.forms form{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding:50px;
+    padding-bottom: 5%;
+    position: relative;
+    z-index: 4;
+}
+@media screen and (max-width: 768px){
+.forms form{
+    width: 100%;
+    }
+}
+
+.forms{
+    background-image:url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+
+    
+}
+@media screen and (max-width: 768px){
+.forms{
+    margin-left: 12%;
+    }
+}
+
+.forms:before{
+content: "";
+position: absolute;
+top: 0;
+background: linear-gradient(to right, #4286f4 0%, #42e2f4 100%);
+bottom: 0;
+right: 0;
+left: 0;
+opacity: .7;
+z-index: 3;
+}
+.forms textarea{
+    width: 50%;
+    height: 50px;
+
+}
+.forms .text_area{
+width: 100%;
+}
+.forms h1{
+    color: white;
+    margin-bottom: 5%;
+    padding-top:5%;
+    position: relative;
+    z-index: 4;
+}
+.forms .text_area textarea{
+    height: 151px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+.forms button{
+     height: 3rem;
+    width: 36%;
+    border-radius: 36px;
+    margin-top: 4%;
+    background-color:rgb(37, 37, 203);
+    color: ghostwhite;
+    border: 0ch;
+    margin-left: 2%;
+}
+@media screen and (max-width: 768px){
+.forms button{
+    width: 100%;
+    }
+}
+.footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.footer i{
+    padding-left: 4%;
+
+}
+.footer p{
+    padding-top: 6%;
+}
